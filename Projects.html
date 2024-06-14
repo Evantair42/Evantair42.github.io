@@ -72,7 +72,48 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor
+                        Over the years, numerous methods of inputting information into computer systems have been
+			developed, and for many decades, keyboards have been a staple and often overlooked input device.
+			As one of the primary input devices, keyboards have become indispensable in the infrastructure of
+			modern computing systems.
+			    
+			When a key on the keyboard is pressed, not only is the corresponding command input into the
+			computer, but the key generates a unique auditory signature that is distinct and identifiable from its
+			counterparts, this unique auditory signature opens a dangerous vulnerability through side channel
+			attacks. Such attacks exploit the information leakage, in this instance sound, to gain insight into
+			otherwise secure processes. By analyzing the auditory signature produced by the different keys
+			on the keyboard, adversaries can employ machine learning algorithms to infer the keystrokes of an
+			unsuspecting user. This method of eavesdropping is particularly worrisome in contexts where
+			sensitive information, such as passwords or personal data are being typed [4], which is a threat to
+			privacy and security. This risk not only affects individual users, but also organisations that depend
+			on keyboards for daily operations.
+			    
+			The aim of this dissertation is to investigate and determine the extent to which keypresses,
+			specifically the letters of the alphabet (A-Z) on a QWERTY layout blue-switch mechanical keyboard,
+			can be accurately identified using machine learning techniques. This research will utilize two
+			different audio recording devices and examine different typing styles from various participants to
+			capture a wide range of auditory signatures. By studying these signatures under different recording
+			environments, this dissertation aims to assess the vulnerability of keyboard input data against
+			acoustic side channel attacks, determining the potential for unauthorized deciphering of typed
+			information. 
+
+			The results from this process showed that under ideal environmental conditions within a controlled
+			environment, the two classification algorithms were able to achieve high levels of accuracy when
+			trying to identify the specific letter that was pressed based on the characteristics of the audio
+			signatures. While under sub-optimal conditions within noisy environments, the two classification
+			algorithms were only able to achieve low classification accuracies.
+			    
+			In one configuration, a sample taken from the sanitary dataset of 20 pangrams was 100% accurate,
+			while the average of the entire dataset was 88.61% accurate. While a sample taken from the dirty
+			dataset of 20 pangrams, the highest accuracy was 25%, while the average of the entire dataset was
+			16.27%. These findings prove that the first hypothesis is not valid, specifically, that the keyboard
+			audio signatures captured in a quiet and controlled environment are unique enough to accurately
+			determine the corresponding letter on the keyboard. 
+
+			As a whole, the research was successful, presenting further questions and many notable
+			observations from the process, but ultimately more work is needed to build on these results and
+			determine if audio signatures are unique enough to accurately determine the corresponding letter
+			on the keyboard to be used in side channel attacks.
                     </p>
                 </div>
             </div>
