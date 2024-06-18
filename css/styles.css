@@ -16,3 +16,11 @@
     height: auto; 
     margin-left: -60px;
 }
+
+.list-move-left {
+    margin-left: 30px;
+}
+
+.list-gap-bottom {
+    margin-top: 25px;
+}
