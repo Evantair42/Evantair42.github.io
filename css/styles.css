@@ -24,3 +24,8 @@
 .list-gap-bottom {
     margin-top: 25px;
 }
+
+.center-link {
+    display: block;
+    text-align: center;
+}
